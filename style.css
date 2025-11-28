@@ -1,0 +1,56 @@
+/* Fuente y reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+/* Header */
+header {
+    padding: 35px 55px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-left: 55px;          /* Alineación idéntica a la imagen */
+
+}
+
+/* Contenedor del texto */
+.hero {
+    height: calc(100vh - 150px); /* Ajuste para que coincida la distancia visual respecto al header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     /* Centrado vertical real */
+    padding-left: 55px;          /* Alineación idéntica a la imagen */
+    margin-top: 100px;           /* Ajuste fino para igualar al mockup */
+}
+
+/* Texto principal */
+.linea {
+    font-size: 60px;              /* Tamaño exacto como el screenshot */
+    font-weight: 300;
+    line-height: 1.27;            /* Coincide con el interlineado */
+    max-width: 900px;             /* Igual al ancho que se ve en imagen */
+    text-align: left;
+}
+
+/* IA destacada */
+.ia {
+    font-family: 'Michroma', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -1px;         /* Ajuste fino idéntico */
+
+}
+
+/* ES superíndice */
+.es {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
